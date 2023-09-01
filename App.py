@@ -18,7 +18,7 @@ DB_FAISS_PATH = 'vectorstore/db_faiss'
 # Load the model of choice
 def load_llm():
     llm = CTransformers(
-        model="llama-2-7b-chat.ggmlv3.q8_0.bin",
+        model="patliu1001/llama-2-7b-chat.ggmlv3.q8_0.bin",
         model_type="llama",
         max_new_tokens=512,
         temperature=0.5
