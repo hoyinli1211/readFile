@@ -8,6 +8,10 @@ from langchain.vectorstores import FAISS
 from langchain.llms import CTransformers
 from langchain.chains import ConversationalRetrievalChain
 
+import sys
+sys.path.append(r"vectorstore/db_faiss")
+import dataset_utils
+
 # Define the path for generated embeddings
 DB_FAISS_PATH = 'vectorstore/db_faiss'
 
