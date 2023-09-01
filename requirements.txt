@@ -10,4 +10,4 @@ transformers
 sentence_transformers
 faiss-cpu
 ctransformers
-dataset_utils
+dataset-utils
